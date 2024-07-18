@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Driving Car</title>
+    <!-- Styling sheets included in the html -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Scripts included in the html file -->
+
+    <script src="./neuronalNetwork/neuronalLevel.js" defer></script>
+    <script src="./neuronalNetwork/network.js" defer></script>
+    <script src="./srcCode/utils.js" defer></script>
+    <script src="./srcCode/sensor.js" defer></script>
+    <script src="./srcCode/road.js" defer></script>
+    <script src="./srcCode/controller.js" defer></script>
+    <script src="./srcCode/car.js" defer></script>
+    <script src="./neuronalNetwork/displayer.js" defer></script>
+    <script src="./srcCode/main.js" defer></script>
+    <!-- Network scripts -->
+</head>
+<body>
+    <canvas id="main_frame"></canvas>
+    <div id="verticalButtons">
+        <button onclick="saveBestBrain()"> &#128190;</button>
+        <button onclick="discard()">&#128465;</button>
+    </div>
+    <canvas id="network_frame"></canvas>
+</body>
+</html>
